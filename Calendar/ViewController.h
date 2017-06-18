@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DZCalendar : NSObject
+@property (nonatomic) NSInteger year;
+@property (nonatomic) NSInteger month;
+@property (nonatomic) NSInteger day;
+@end
 
+@interface ViewController : UIViewController
+@property (nonatomic) DZCalendar *calendarDate;
 
 @end
 
