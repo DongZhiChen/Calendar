@@ -20,6 +20,8 @@
     ///branch1_2
     ///branch1-2
     // Override point for customization after application launch.
+    
+    [self test];
     return YES;
 }
 
