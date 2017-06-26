@@ -28,7 +28,7 @@
 - (void)test {
     NSLog(@"TEST");
 }
-- (void)test2 {
+- (void)test22222 {
     NSLog(@"test2");
 }
 
