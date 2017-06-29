@@ -25,13 +25,9 @@
 }
 ///记录选择的时间
 @property (nonatomic) DZCalendar *calendarDate;
+@property (weak, nonatomic) IBOutlet UILabel *LB;
 
 ///是否能选择过去时间
 @property (nonatomic, assign) BOOL isChoosePastTime;
-
-@property (strong, nonatomic) IBOutlet UIView *contentView;
-@property (weak, nonatomic) IBOutlet UIPickerView *PV_Year;
-@property (weak, nonatomic) IBOutlet UIPickerView *PV_Month;
-@property (weak, nonatomic) IBOutlet UIPickerView *PV_Day;
 
 @end

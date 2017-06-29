@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  test.h
 //  Calendar
 //
-//  Created by 陈东芝 on 17/6/18.
+//  Created by 陈东芝 on 17/6/30.
 //  Copyright © 2017年 陈东芝. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface test : UIViewController
 
 @end
-
